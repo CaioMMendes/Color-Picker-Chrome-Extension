@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "Color Input",
+  "description": "Controlador de vídeos",
+  "version": "0.1.0",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage",
+    "tabs",
+    "clipboardWrite",
+    "clipboardRead",
+    "Desktop capture"
+  ],
+  "action": {
+    "default_icon": "./icons/ZeGotinhaPintor-128.png",
+    "default_popup": "./popup/popup.html"
+  },
+  "icons": {
+    "16": "./icons/ZeGotinhaPintor-16.png",
+    "24": "./icons/ZeGotinhaPintor-24.png",
+    "32": "./icons/ZeGotinhaPintor-32.png",
+    "48": "./icons/ZeGotinhaPintor-48.png",
+    "128": "./icons/ZeGotinhaPintor-128.png"
+  },
+  "host_permissions": ["<all_urls>"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
