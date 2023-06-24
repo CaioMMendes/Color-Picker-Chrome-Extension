@@ -1,4 +1,3 @@
-
 document.addEventListener('DOMContentLoaded', function () {
     let colorInput = document.getElementById("colorInput");
     let copyButton = document.getElementById("copyButton");
@@ -19,11 +18,5 @@ document.addEventListener('DOMContentLoaded', function () {
     copyButton.addEventListener('click', function () {
         let selectedColor = colorInput.value;
         navigator.clipboard.writeText(selectedColor)
-            .then(function () {
-                console.log("Cor copiada: " + selectedColor);
-            })
-            .catch(function (error) {
-                console.error("Erro ao copiar cor: ", error);
-            });
     });
 });

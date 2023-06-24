@@ -18,9 +18,7 @@ input[type="color"]::-webkit-color-swatch-wrapper {
   padding: 0;
   border: none;
 }
-/* input[type="color"]::-webkit-color-swatch {
-  border: none;
-} */
+
 .container {
   height: 100%;
   width: 100%;
@@ -40,11 +38,8 @@ input[type="color"]::-webkit-color-swatch-wrapper {
   align-items: center;
   height: 55px;
   width: 37px;
-  border: none;
-  outline: none;
-
-  padding: 0;
 }
+
 .firstLine {
   display: flex;
   justify-content: space-between;
@@ -52,10 +47,12 @@ input[type="color"]::-webkit-color-swatch-wrapper {
   align-items: center;
   margin-bottom: 4px;
 }
+
 .secondLine {
   font-size: 14px;
   font-weight: 500;
 }
+
 button {
   height: 25px;
   width: 100%;
@@ -69,9 +66,11 @@ button {
   border: 1px solid rgba(0, 0, 0, 0.5);
   border-radius: 8px;
 }
+
 button:active {
   transform: translateY(-4px);
 }
+
 .bolinha {
   width: 5px;
   height: 5px;
