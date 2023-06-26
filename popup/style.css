@@ -18,7 +18,11 @@ input[type="color"]::-webkit-color-swatch-wrapper {
   padding: 0;
   border: none;
 }
-
+input[type="color"]::-webkit-color-swatch {
+  border: none;
+  outline: none;
+  border: none;
+}
 .container {
   height: 100%;
   width: 100%;
@@ -38,10 +42,12 @@ input[type="color"]::-webkit-color-swatch-wrapper {
   align-items: center;
   height: 55px;
   width: 37px;
+  border: none;
 }
 
 .firstLine {
   display: flex;
+  width: 100%;
   justify-content: space-between;
   gap: 5px;
   align-items: center;
@@ -76,4 +82,22 @@ button:active {
   height: 5px;
   border-radius: 100%;
   background-color: transparent;
+}
+.buttonWrapper {
+  display: flex;
+  width: 100%;
+}
+.title {
+  position: relative;
+}
+.title::after {
+  position: absolute;
+  content: "Cor copiada!";
+  bottom: -15px;
+  left: -60px;
+  background-color: #333;
+  color: white;
+  padding: 4px 8px;
+  font-size: 0.8em;
+  z-index: 20;
 }

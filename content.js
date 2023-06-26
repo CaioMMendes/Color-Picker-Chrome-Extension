@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
     let colorInput = document.getElementById("colorInput");
     let copyButton = document.getElementById("copyButton");
+    let buttonWrapper = document.getElementById("buttonWrapper")
     let element = document.getElementById("bolinha");
     let colorHex = document.getElementById('colorHex')
     let colorStorage = localStorage.getItem('color') || '#000000'
@@ -18,5 +19,10 @@ document.addEventListener('DOMContentLoaded', function () {
     copyButton.addEventListener('click', function () {
         let selectedColor = colorInput.value;
         navigator.clipboard.writeText(selectedColor)
+        buttonWrapper.classList.add('title')
+
+        setTimeout(() => {
+            buttonWrapper.classList.remove('title')
+        }, 1500)
     });
 });
