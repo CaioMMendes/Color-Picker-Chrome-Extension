@@ -6,14 +6,17 @@
 
 body {
   background-color: #808080;
-  width: 170px;
-  height: 60px;
+  width: 270px;
+  height: 64px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0;
 }
-
+select {
+  background-color: #808080;
+  border: 1px solid #000;
+}
 input[type="color"]::-webkit-color-swatch-wrapper {
   padding: 0;
   border: none;
@@ -34,7 +37,7 @@ input[type="color"]::-webkit-color-swatch {
 }
 .collumn {
   display: flex;
-  width: 125px;
+  width: 160px;
   flex-direction: column;
 }
 #colorInput {
@@ -55,7 +58,8 @@ input[type="color"]::-webkit-color-swatch {
 }
 
 .secondLine {
-  font-size: 14px;
+  margin-left: 5px;
+  font-size: 13px;
   font-weight: 500;
 }
 
@@ -77,12 +81,6 @@ button:active {
   transform: translateY(-4px);
 }
 
-.bolinha {
-  width: 5px;
-  height: 5px;
-  border-radius: 100%;
-  background-color: transparent;
-}
 .buttonWrapper {
   display: flex;
   width: 100%;
@@ -92,11 +90,13 @@ button:active {
 }
 .title::after {
   position: absolute;
+  margin: auto;
   content: "Cor copiada!";
-  bottom: -15px;
-  left: -60px;
+  bottom: -25px;
+  left: 130px;
   background-color: #333;
   color: white;
+  width: 60px;
   padding: 4px 8px;
   font-size: 0.8em;
   z-index: 20;
