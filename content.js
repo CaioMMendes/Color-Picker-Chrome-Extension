@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
     colorTypeElement.value = colorType
     colorInput.value = colorStorage
     if (colorTypeElement.value === 'hexadecimal') {
-        color.innerHTML = `Color hex: ${colorInput.value}`
+        color.innerHTML = `Color: ${colorInput.value}`
     } else if (colorTypeElement.value === 'RGB') {
         const RGBColor = hexToRgb(colorInput.value);
         color.innerHTML = `Color: ${RGBColor}`
@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
         let selectedColor = colorInput.value;
         localStorage.setItem('color', selectedColor)
         if (colorTypeElement.value === 'hexadecimal') {
-            color.innerHTML = `Color hex: ${colorInput.value}`
+            color.innerHTML = `Color: ${colorInput.value}`
         } else if (colorTypeElement.value === 'RGB') {
             const RGBColor = hexToRgb(colorInput.value);
             color.innerHTML = `Color: ${RGBColor}`
@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function () {
     colorTypeElement.addEventListener('change', function () {
         localStorage.setItem('colorType', colorTypeElement.value)
         if (colorTypeElement.value === 'hexadecimal') {
-            color.innerHTML = `Color hex: ${colorInput.value}`
+            color.innerHTML = `Color: ${colorInput.value}`
         } else if (colorTypeElement.value === 'RGB') {
             const RGBColor = hexToRgb(colorInput.value);
             color.innerHTML = `Color: ${RGBColor}`
