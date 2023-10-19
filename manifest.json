@@ -5,19 +5,19 @@
   "version": "0.0.1",
   "permissions": [],
   "action": {
-    "default_icon": "./icons/ZeGotinhaPintor-128.png",
+    "default_icon": "./icons/color-picker-128.png",
     "default_popup": "./popup/popup.html"
   },
   "icons": {
-    "16": "./icons/ZeGotinhaPintor-16.png",
-    "24": "./icons/ZeGotinhaPintor-24.png",
-    "32": "./icons/ZeGotinhaPintor-32.png",
-    "48": "./icons/ZeGotinhaPintor-48.png",
-    "128": "./icons/ZeGotinhaPintor-128.png"
+    "16": "./icons/color-picker-16.png",
+    "24": "./icons/color-picker-24.png",
+    "32": "./icons/color-picker-32.png",
+    "48": "./icons/color-picker-48.png",
+    "128": "./icons/color-picker-128.png"
   },
   "content_scripts": [
     {
-      "matches": ["<all_urls>"],
+      "matches": ["http://127.0.0.1:5500/popup/popup.html"],
       "js": ["content.js"]
     }
   ]

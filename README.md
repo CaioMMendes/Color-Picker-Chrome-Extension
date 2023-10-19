@@ -1,6 +1,6 @@
 
 <div align="center">
-<img  title="Extension popup image" src="https://cdn.discordapp.com/attachments/982526022371119104/1123058340822515792/image.png" alt="Extension popup image"  />
+<img  title="Extension popup image" src="https://cdn.discordapp.com/attachments/1124406159328170034/1124436864347164692/image.png" alt="Extension popup image"  />
 </div>
 
 ## **📌** Sobre
