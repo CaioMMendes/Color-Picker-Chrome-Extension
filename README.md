@@ -5,4 +5,4 @@
 
 ## **📌** Sobre
 
- Essa extensão permite ao usuário identificar uma cor em qualquer lugar da página e copiar o código hexadecimal correspondente com apenas um clique no botão fornecido pela extensão.
+ Essa extensão permite ao usuário identificar uma cor em qualquer lugar da página e copiar o código hexadecimal/RGB/HSL correspondente com apenas um clique no botão fornecido pela extensão.
