@@ -1,4 +1,4 @@
-
+## 🖼 Imagens 
 <div align="center" style="justify-content:center; display:flex; flex-direction:column; gap:20px">
 <img  title="Imagem 1" src="./github/1.png" alt="Imagem da utilização da extensão"  />
 <img  title="Imagem 2" src="./github/2.png" alt="Imagem da utilização da extensão"  />
@@ -22,3 +22,10 @@
 [Link da página da extensão da loja do chrome](https://chromewebstore.google.com/detail/color-picker/cpkidjbnngpahjhofgbgbjkhenipbdjo)
 
 ## 💻 Exemplo do projeto
+
+
+
+https://github.com/CaioMMendes/Color-Picker-Chrome-Extension/assets/115363966/410075a0-6b63-4c23-829e-a5fbbecc1351
+
+
+
