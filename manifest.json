@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Color Picker",
   "description": "You can easily obtain the color Hex, RGB or HSL of any element on the screen, whether it's text, images, buttons, or backgrounds.",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "permissions": [],
   "action": {
     "default_icon": "./icons/color-picker-128.png",
